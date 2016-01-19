@@ -1,8 +1,56 @@
 body {
-    background-color: #6AA84F;
+	font-family: "Open Sans", "segoe ui", Helvetica, Arial, Sans-Serif;
+	font-size: 18px;
+	color: #FFF;
+	
+	background-image:url("Images/background.jpg");
+	background-size:cover; 
+	background-repeat:no-repeat;
+	background-position:top right;
+	background-attachment:fixed;
 }
 
-h1 {
-    color: navy;
-    margin-left: 20px;
+/* Box Styling*/
+div.box {
+	position: fixed;
+	top: 200px;
+	right: 100px;
+	background-color: #344E69;
+	opacity: 0.9;
+	border-radius: 20px 20px 20px 20px;
+}
+
+div.header{
+	position: relative;
+	left: 20px;
+	top: 10px;
+	font-size: 50px;
+	font-weight: 500;
+
+}
+
+div.boxtext{
+	position: relative;
+	padding: 20px;
+}
+
+/* Menu Styling */
+ul#menu {
+    padding: 0px;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: #1A2633;
+    color: #FFF;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
+ul#menu li a:hover {
+    background-color: #679BCF;
 }
